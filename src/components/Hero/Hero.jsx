@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import book1 from "../../../assets/books/book2.jpg";
-import book2 from "../../../assets/books/book1.jpg";
-import book3 from "../../../assets/books/book3.jpg";
-import vector from "../../../assets/website/blue-pattern.png";
+import book1 from "../../assets/books/book2.jpg";
+import book2 from "../../assets/books/book1.jpg";
+import book3 from "../../assets/books/book3.jpg";
+import vector from "../../assets/website/blue-pattern.png";
 
 const ImageList = [
   {
