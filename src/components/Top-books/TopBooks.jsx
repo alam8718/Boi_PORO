@@ -159,7 +159,7 @@ function TopBooks() {
   ];
   return (
     <>
-      <div className="container mx-auto py-14">
+      <div className="container mx-auto py-14 px-5">
         {/* header part  */}
         <Headers
           name={"Best Books"}

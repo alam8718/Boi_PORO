@@ -21,7 +21,7 @@ function Fotter() {
     },
   ];
   return (
-    <div className="mt-10 container mx-auto ">
+    <div className="mt-10 container mx-auto px-10">
       <div className="flex flex-col sm:flex-row sm:justify-between gap-1 items-center justify-center">
         <div className="w-full  md:w-[50%] flex flex-col gap-4">
           <h1 className="text-3xl sm:text-4xl dark:text-amber-400">BOI PORO</h1>
@@ -29,9 +29,11 @@ function Fotter() {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
             cumque fuga distinctio quas!
           </p>
-          <address className="flex items-center">
+          <address className="flex gap-3 items-center dark:text-white">
             <CiLocationArrow1 size={30} />
-            Apt. 840 99562 Medhurst Greens, Kovacekstad, FL 94195
+            <span className="text-sm">
+              Apt. 840 99562 Medhurst Greens, Kovacekstad, FL 94195
+            </span>
           </address>
           {/* social media  */}
           <div></div>
@@ -39,7 +41,7 @@ function Fotter() {
 
         {/*  */}
 
-        <div className="w-full flex justify-center md:w-[50%]">
+        <div className="w-full flex sm:justify-center md:w-[50%]">
           <div>
             <h1 className="text-2xl dark:text-white">Important Links</h1>
             <ul>
