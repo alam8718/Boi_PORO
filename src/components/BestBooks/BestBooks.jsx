@@ -58,11 +58,11 @@ const BookList = [
 const BestBooks = () => {
   return (
     <>
-      <div>
-        <div className="container py-20">
+      <div className="dark:bg-black">
+        <div className="container py-20 ">
           {/* header selection  */}
           <div className="max-w-[400px] mx-auto text-center mb-20">
-            <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-900">
+            <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-900 dark:text-white">
               Trending Books
             </p>
             <h1 className="text-3xl font-bold ">Best Books</h1>
@@ -93,7 +93,9 @@ const BestBooks = () => {
                     <FaStar className="text-yellow-400" />
                     <FaStar className="text-yellow-400" />
                   </div>
-                  <h1 className="font-bold text-xl py-2">{book.title}</h1>
+                  <h1 className="font-bold text-xl py-2 text-black dark:text-white">
+                    {book.title}
+                  </h1>
                   <h1 className="text-sm text-gray-400 font-semibold line-clamp-2 group-hover:text-white  ">
                     {book.desc}
                   </h1>
