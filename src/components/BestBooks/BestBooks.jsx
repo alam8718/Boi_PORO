@@ -3,6 +3,7 @@ import {FaStar} from "react-icons/fa";
 import book1 from "../../assets/books/book2.jpg";
 import book2 from "../../assets/books/book1.jpg";
 import book3 from "../../assets/books/book3.jpg";
+import Headers from "../Common/Headers";
 
 const BookList = [
   {
@@ -61,17 +62,13 @@ const BestBooks = () => {
       <div className="dark:bg-black">
         <div className="container my-20 ">
           {/* header selection  */}
-          <div className="max-w-[400px] mx-auto text-center mb-20">
-            <p className="text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-900 dark:text-white">
-              Trending Books
-            </p>
-            <h1 className="text-3xl font-bold ">Best Books</h1>
-            <p className="text-xs text-gray-400">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
-              neque repellat in ad, suscipit nostrum. Optio error libero cumque
-              pariatur debitis voluptatem fugit!
-            </p>
-          </div>
+          <Headers
+            name={"Trending Books"}
+            in_h1={"Best Books"}
+            in_p={
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa iure, corporis"
+            }
+          />
           {/* card selection  */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center">
             {/* card  */}

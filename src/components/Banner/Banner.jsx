@@ -23,7 +23,7 @@ const Banner = () => {
           {/* text container  */}
           <div className="flex flex-col gap-3 py-20">
             {/* texts  */}
-            <div>
+            <div className="flex flex-col gap-4">
               <h1 className="text-3xl sm:text-4xl font-bold dark:text-white text-black ">
                 Library at your fingertips
               </h1>

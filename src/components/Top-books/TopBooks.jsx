@@ -4,6 +4,7 @@ import book1 from "../../assets/books/book2.jpg";
 import book2 from "../../assets/books/book1.jpg";
 import book3 from "../../assets/books/book3.jpg";
 import ShowBooks from "./ShowBooks";
+import Headers from "../Common/Headers";
 
 function TopBooks() {
   const [showAll, setShowAll] = useState(false);
@@ -160,16 +161,13 @@ function TopBooks() {
     <>
       <div className="container mx-auto py-14">
         {/* header part  */}
-        <div className="flex flex-col items-center justify-center mb-20">
-          <p className="dark:text-white text-md text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-            Best Books
-          </p>
-          <h1 className="text-3xl sm:text-4xl  font-bold">Top Books</h1>
-          <p className="w-full mx-auto px-10 text-sm text-gray-400 text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
-            iure, corporis
-          </p>
-        </div>
+        <Headers
+          name={"Best Books"}
+          in_h1={"Top Books"}
+          in_p={
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa iure, corporis"
+          }
+        />
         {/* books  */}
         <div>
           {showAll ? (
