@@ -1,5 +1,9 @@
 import React from "react";
 import library from "../../assets/website/library.jpg";
+import playStore from "../../assets/website/play_store.png";
+import app_store from "../../assets/website/app_store.png";
+import BoardImg from "../../assets/website/board.png";
+
 import {IoBookSharp} from "react-icons/io5";
 import {CiDeliveryTruck} from "react-icons/ci";
 import {MdPayment} from "react-icons/md";
@@ -9,21 +13,21 @@ import Icon from "../Common/Icon";
 const Banner = () => {
   return (
     <>
-      <div className="my-10 container h-[600px] ">
-        <div className="h-full grid grid-cols-1 sm:grid-cols-2  gap-8">
+      <div className=" mb-10  ">
+        <div className=" container h-full grid grid-cols-1 sm:grid-cols-2  gap-8">
           {/* image container  */}
           <div className="flex items-center ">
             <img src={library} className="shadow-2xl" alt="library image" />
           </div>
 
           {/* text container  */}
-          <div className="flex flex-col gap-3 py-24">
+          <div className="flex flex-col gap-3 py-20">
             {/* texts  */}
             <div>
-              <h1 className="text-4xl font-bold ">
+              <h1 className="text-3xl sm:text-4xl font-bold dark:text-white text-black ">
                 Library at your fingertips
               </h1>
-              <p className="text-sm text-gray-400 ">
+              <p className="text-sm text-gray-400  ">
                 Lorem, ipsum dolor sit amet consectetur adipisicing assumenda
                 fuga maiores quod non adipisci tempore sequi.
               </p>
@@ -52,6 +56,19 @@ const Banner = () => {
                   color="purple"
                 />
               </div>
+            </div>
+          </div>
+        </div>
+        {/*  */}
+        <div className="relative mb-10 h-[200px] overflow-hidden flex justify-center items-center ">
+          <img src={BoardImg} className=" w-full h-full object-cover" alt="" />
+          <div className="absolute text-white flex flex-col justify-center items-center gap-4">
+            <div className="text-2xl sm:text-4xl font-semibold">
+              Read Books at your fingertips
+            </div>
+            <div className="flex justify-center items-center w-[150px] sm:w-[200px]">
+              <img src={playStore} alt="" />
+              <img src={app_store} alt="" />
             </div>
           </div>
         </div>

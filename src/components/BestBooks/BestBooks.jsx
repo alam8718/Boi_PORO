@@ -59,7 +59,7 @@ const BestBooks = () => {
   return (
     <>
       <div className="dark:bg-black">
-        <div className="container py-20 ">
+        <div className="container my-20 ">
           {/* header selection  */}
           <div className="max-w-[400px] mx-auto text-center mb-20">
             <p className="text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-900 dark:text-white">
