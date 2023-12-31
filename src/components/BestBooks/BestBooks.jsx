@@ -59,7 +59,7 @@ const BookList = [
 const BestBooks = () => {
   return (
     <>
-      <div className="dark:bg-black">
+      <div className=" ">
         <div className="container my-20 ">
           {/* header selection  */}
           <Headers
