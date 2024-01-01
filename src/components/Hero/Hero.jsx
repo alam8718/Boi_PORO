@@ -61,7 +61,10 @@ const Hero = () => {
         <div className="container ">
           <div className="grid grid-cols-1 gap-13 sm:grid-cols-2">
             {/* hero text section  */}
-            <div className="flex flex-col justify-center gap-4 order-2 sm:order-1 text-center sm:text-left pt-12 sm:pt-0 ">
+            <div
+              data-aos="zoom-out"
+              data-aos-duration="500"
+              className="flex flex-col justify-center gap-4 order-2 sm:order-1 text-center sm:text-left pt-12 sm:pt-0 ">
               <h1 className="text-5xl sm:text-6xl lg:text-6xl font-semibold">
                 {title}
                 <p className="text-sm text-right bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary pr-5 font-semibold  ">
@@ -77,7 +80,11 @@ const Hero = () => {
             </div>
 
             {/* hero image section  */}
-            <div className="min-h-[450px] flex justify-center items-center relative order-1 sm:order-2">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-once="true"
+              className="min-h-[450px] flex justify-center items-center relative order-1 sm:order-2">
               {/* main image  */}
               <div className=" flex justify-center items-center overflow-hidden ">
                 <img

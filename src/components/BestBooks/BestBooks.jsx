@@ -60,7 +60,10 @@ const BestBooks = () => {
   return (
     <>
       <div className=" ">
-        <div className="container my-20 ">
+        <div
+          data-aos="zoom-in"
+          data-duration="500"
+          className="container my-20 ">
           {/* header selection  */}
           <Headers
             name={"Trending Books"}

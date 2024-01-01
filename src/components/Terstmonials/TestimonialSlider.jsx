@@ -65,7 +65,11 @@ export default function TestimonialSlider() {
   return (
     <Slider {...settings}>
       {testimonialData.map((testi) => (
-        <div key={testi.id} className=" p-2 ">
+        <div
+          data-aos="fade-in"
+          data-aos-duration="500"
+          key={testi.id}
+          className=" p-2 ">
           <div className="flex flex-col items-center justify-center gap-7 bg-[#D6D3F0]/20 h-[300px] dark:text-white dark:bg-[#C4CAD0]/40 rounded-xl p-4 ">
             <div>
               <img

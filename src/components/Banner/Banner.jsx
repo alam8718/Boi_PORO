@@ -13,7 +13,7 @@ import Icon from "../Common/Icon";
 const Banner = () => {
   return (
     <>
-      <div className=" mb-10 px-5  ">
+      <div className=" mb-10 px-5  " data-aos="zoom-in" data-aos-duration="500">
         <div className=" container h-full grid grid-cols-1 sm:grid-cols-2  gap-8">
           {/* image container  */}
           <div className="flex items-center ">

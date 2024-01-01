@@ -4,7 +4,10 @@ import {FaStar} from "react-icons/fa";
 function ShowBooks({List}) {
   return (
     <>
-      <div className="flex justify-evenly dark:text-white flex-wrap gap-10">
+      <div
+        data-aos="zoom-out"
+        data-aos-duration="500"
+        className="flex justify-evenly dark:text-white flex-wrap gap-10">
         {List.map((book) => (
           <div className="flex flex-col gap-4">
             <div>

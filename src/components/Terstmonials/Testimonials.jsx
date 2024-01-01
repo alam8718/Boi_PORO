@@ -5,7 +5,7 @@ import TestimonialSlider from "./TestimonialSlider";
 const Testimonials = () => {
   return (
     <>
-      <div className="my-10 px-5">
+      <div  className="my-10 px-5">
         <div className="container mx-auto">
           {/* header part  */}
           <div>

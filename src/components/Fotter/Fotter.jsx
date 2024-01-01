@@ -21,11 +21,14 @@ function Fotter() {
     },
   ];
   return (
-    <div className="mt-10 container mx-auto px-10">
-      <div className="flex flex-col sm:flex-row sm:justify-between gap-1 items-center justify-center">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="500"
+      className="bg-gray-400 mt-10   px-10">
+      <div className="container flex flex-col sm:flex-row sm:justify-between gap-1 items-center justify-center">
         <div className="w-full  md:w-[50%] flex flex-col gap-4">
           <h1 className="text-3xl sm:text-4xl dark:text-amber-400">BOI PORO</h1>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-600">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
             cumque fuga distinctio quas!
           </p>
